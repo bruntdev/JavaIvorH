@@ -10,7 +10,7 @@ public class Point {
     double y;
 
     //Create a point from co-ordinates
-    Point(double xVal, double yVal){
+    public Point(double xVal, double yVal){
         x = xVal;
         y = yVal;
     }
